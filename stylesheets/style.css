@@ -1,0 +1,48 @@
+body{
+	background-color: #bdd5fc;
+}
+
+h2{
+	font-size: 72px;
+	margin: auto;
+	position: relative;
+	padding: 15px;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
+}
+
+ul li{
+	cursor: pointer;
+	position: relative;
+	padding:10px;
+}
+
+ul li:hover{
+	background:#649ffc;
+}
+
+ul li.checked{
+	background-color: darkgrey;
+	text-decoration: line-through;
+}
+
+input{
+	float: right;
+	font-size: 20px;
+}
+
+.addNew {
+	padding: 8px;
+	background-color: lightgreen;
+	float:right;
+	text-align: center;
+	cursor: pointer;
+}
+
+.addNew:hover{
+	background-color: green;
+}

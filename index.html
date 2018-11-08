@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>To Do List</title>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type=text/javascript src="javascript/main.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<h2>To Do List</h2>
+		<p>Click to remove task.</p>
+		<div class="toDo">
+			<input type="text" id="newTask" placeholder="Write your task here">
+			<button class="addNew">Add New Task</button>
+			<br>
+			<ul id="doList">
+				<li>Javascript homework</li>
+				<li>Reading for media class</li>
+				<li>Get groceries</li>
+				<li>Make haircut appointment</li>
+
+			</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		
+		$("li").click(function(){
+
+			$(this).hide();
+		});
+
+	</script>
+</body>
+</html>
